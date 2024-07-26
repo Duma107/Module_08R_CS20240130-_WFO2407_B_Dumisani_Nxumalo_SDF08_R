@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <footer class="bg-[#659f8f]">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid sm:grid-cols-2 gap-8">
+                <div class="mt-10">
+                    <h1 class="text-xl font-medium">Subscribe to our newsletter for updates.</h1>
+                    <div class="mt-6 flex">
+                        <input class="rounded-md p-2 w-1/3" id="email" type="text" placeholder="Email Address">
+                        <button type="submit" class="ml-2 p-2 bg-[#d86943] font-semibold rounded-md text-white hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="mt-4 flex justify-end">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr>
+                                <th class="p-4 text-left text-[#313131]">Quick Links</th>
+                                <th class="p-4 text-left text-[#313131]">Technologies</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-4">
+                                    <a href="#" class="block mb-2 text-black">Home</a>
+                                    <a href="#" class="block mb-2 text-black">Who We Are</a>
+                                    <a href="#" class="block text-black">Our Philosophy</a>
+                                </td>
+                                <td class="p-4">
+                                    <a href="#" class="block mb-2 text-black">HTML</a>
+                                    <a href="#" class="block mb-2 text-black">CSS</a>
+                                    <a href="#" class="block text-black">JavaScript</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <hr class="my-6 border-[#d86943]">
+            <div class="flex justify-start">
+                <a href="#">
+                    <img class="w-auto h-6" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
